@@ -1,0 +1,7 @@
+# ESP32 specific
+.pio
+.vscode
+.DS_Store
+*.bin
+*.elf
+build/

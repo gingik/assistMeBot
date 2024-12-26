@@ -1,0 +1,8 @@
+FROM llama3.2
+
+SYSTEM "You are an AI assistant trained on custom data."
+
+TEMPLATE "{.Prompt}
+Assistant: {.Response}"
+
+PARAMETER temperature 0.7
